@@ -1,0 +1,164 @@
+{
+  "version": "0.11.0",
+  "items": [
+    {
+      "id": "",
+      "type": "text",
+      "display": true,
+      "description": "",
+      "x": 41.1,
+      "y": 36,
+      "width": 186,
+      "height": 34,
+      "style": {
+        "font-family": [
+          "IPAGothic"
+        ],
+        "font-size": 18,
+        "color": "#000000",
+        "text-align": "left",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": []
+      },
+      "texts": [
+        "テストですよ"
+      ]
+    },
+    {
+      "id": "",
+      "type": "text",
+      "display": true,
+      "description": "",
+      "x": 237.1,
+      "y": 80,
+      "width": 33,
+      "height": 55,
+      "style": {
+        "font-family": [
+          "IPAGothic"
+        ],
+        "font-size": 18,
+        "color": "#000000",
+        "text-align": "left",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": []
+      },
+      "texts": [
+        ""
+      ]
+    },
+    {
+      "id": "def_tb",
+      "type": "list",
+      "display": true,
+      "description": "テスト表",
+      "x": 49.1,
+      "y": 143,
+      "width": 502,
+      "height": 214,
+      "header": {
+        "enabled": true,
+        "height": 26.4,
+        "translate": {
+          "x": -6,
+          "y": -4
+        },
+        "items": []
+      },
+      "detail": {
+        "height": 26.4,
+        "translate": {
+          "x": -6,
+          "y": -4
+        },
+        "items": []
+      },
+      "page-footer": {
+        "enabled": true,
+        "height": 19.8,
+        "translate": {
+          "x": -6,
+          "y": -4
+        },
+        "items": []
+      },
+      "footer": {
+        "enabled": true,
+        "height": 19.8,
+        "translate": {
+          "x": -6,
+          "y": -4
+        },
+        "items": []
+      },
+      "content-height": 187.6,
+      "auto-page-break": true
+    },
+    {
+      "id": "testimg01",
+      "type": "image-block",
+      "display": true,
+      "description": "テスト画像01",
+      "x": 58.1,
+      "y": 376,
+      "width": 123,
+      "height": 136,
+      "style": {
+        "position-x": "left",
+        "position-y": "top"
+      }
+    },
+    {
+      "id": "testtext01",
+      "type": "text-block",
+      "display": true,
+      "description": "",
+      "x": 210.1,
+      "y": 377,
+      "width": 285,
+      "height": 18,
+      "style": {
+        "font-family": [
+          "IPAGothic"
+        ],
+        "font-size": 18,
+        "color": "#000000",
+        "text-align": "left",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": [],
+        "overflow": "truncate",
+        "word-wrap": "none"
+      },
+      "reference-id": "",
+      "value": "",
+      "multiple-line": false,
+      "format": {
+        "base": "",
+        "type": ""
+      }
+    }
+  ],
+  "state": {
+    "layout-guides": []
+  },
+  "title": "TEテスト20201124",
+  "report": {
+    "paper-type": "A4",
+    "orientation": "portrait",
+    "margin": [
+      20,
+      20,
+      20,
+      20
+    ]
+  }
+}
