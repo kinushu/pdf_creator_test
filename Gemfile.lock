@@ -1,0 +1,14 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    pdfkit (0.8.4.3.2)
+    wkhtmltopdf-binary (0.12.6.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  pdfkit
+  wkhtmltopdf-binary
+
+

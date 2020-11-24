@@ -1,0 +1,20 @@
+FROM ruby:2.3.8
+
+ENV LANG ja_JP.UTF-8
+ENV LC_ALL ja_JP.UTF-8
+ENV LC_CTYPE ja_JP.UTF-8
+ENV TZ Asia/Tokyo
+
+RUN gem install bundler:1.17.3
+
+RUN mkdir /app
+WORKDIR /app
+
+COPY Gemfile* /app/
+RUN bundle install
+
+RUN apt-get update
+RUN apt-get install -y fonts-ipafont fonts-ipafont-gothic fonts-ipafont-mincho
+
+CMD bash -c "bundle exec ruby create_by_pdfkit.rb"
+
