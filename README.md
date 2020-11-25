@@ -5,7 +5,7 @@
 
 ruby create_by_thinreports.rb
 ## or 
-docker-compose up
+docker-compose up app_thinreports
 
 ## pdfkit
 
