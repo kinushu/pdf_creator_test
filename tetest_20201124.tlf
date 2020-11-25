@@ -69,7 +69,40 @@
           "x": -10,
           "y": -30
         },
-        "items": []
+        "items": [
+          {
+            "id": "header_text",
+            "type": "text-block",
+            "display": true,
+            "description": "",
+            "x": 55.1,
+            "y": 150,
+            "width": 502,
+            "height": 21,
+            "style": {
+              "font-family": [
+                "Helvetica"
+              ],
+              "font-size": 18,
+              "color": "#000000",
+              "text-align": "center",
+              "vertical-align": "top",
+              "line-height": "",
+              "line-height-ratio": "",
+              "letter-spacing": "",
+              "font-style": [],
+              "overflow": "truncate",
+              "word-wrap": "none"
+            },
+            "reference-id": "",
+            "value": "",
+            "multiple-line": false,
+            "format": {
+              "base": "",
+              "type": ""
+            }
+          }
+        ]
       },
       "detail": {
         "height": 26.4,
