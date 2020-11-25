@@ -58,33 +58,98 @@
       "type": "list",
       "display": true,
       "description": "テスト表",
-      "x": 49.1,
-      "y": 143,
+      "x": 45.1,
+      "y": 117,
       "width": 502,
       "height": 214,
       "header": {
         "enabled": true,
         "height": 26.4,
         "translate": {
-          "x": -6,
-          "y": -4
+          "x": -10,
+          "y": -30
         },
         "items": []
       },
       "detail": {
         "height": 26.4,
         "translate": {
-          "x": -6,
-          "y": -4
+          "x": -10,
+          "y": -30
         },
-        "items": []
+        "items": [
+          {
+            "id": "text1",
+            "type": "text-block",
+            "display": true,
+            "description": "",
+            "x": 150.6,
+            "y": 179,
+            "width": 109,
+            "height": 19.8,
+            "style": {
+              "font-family": [
+                "IPAGothic"
+              ],
+              "font-size": 18,
+              "color": "#000000",
+              "text-align": "left",
+              "vertical-align": "top",
+              "line-height": "",
+              "line-height-ratio": "",
+              "letter-spacing": "",
+              "font-style": [],
+              "overflow": "truncate",
+              "word-wrap": "none"
+            },
+            "reference-id": "",
+            "value": "",
+            "multiple-line": false,
+            "format": {
+              "base": "",
+              "type": ""
+            }
+          },
+          {
+            "id": "text2",
+            "type": "text-block",
+            "display": true,
+            "description": "",
+            "x": 375.6,
+            "y": 180,
+            "width": 109,
+            "height": 19.8,
+            "style": {
+              "font-family": [
+                "IPAGothic"
+              ],
+              "font-size": 18,
+              "color": "#000000",
+              "text-align": "left",
+              "vertical-align": "top",
+              "line-height": "",
+              "line-height-ratio": "",
+              "letter-spacing": "",
+              "font-style": [],
+              "overflow": "truncate",
+              "word-wrap": "none"
+            },
+            "reference-id": "",
+            "value": "",
+            "multiple-line": false,
+            "format": {
+              "base": "",
+              "type": ""
+            }
+          }
+        ]
       },
       "page-footer": {
         "enabled": true,
         "height": 19.8,
         "translate": {
-          "x": -6,
-          "y": -4
+          "x": -10,
+          "y": -30
         },
         "items": []
       },
@@ -92,8 +157,8 @@
         "enabled": true,
         "height": 19.8,
         "translate": {
-          "x": -6,
-          "y": -4
+          "x": -10,
+          "y": -30
         },
         "items": []
       },

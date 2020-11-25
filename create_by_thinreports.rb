@@ -16,6 +16,11 @@ def main_proc
     page.item(:testimg01).src('assets/150x54.png')
   end
 
+  report.list(:def_tb).add_row do |row|
+    row.item(:text1).value('row1-text1')
+    row.item(:text2).value('row1-text2')
+  end
+
   report.generate(filename: 'tmp/testout.pdf')
 end
 
